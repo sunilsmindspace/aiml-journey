@@ -50,7 +50,8 @@ pip install vllm gpt4all ollama ollama-python
 
 pip install pymilvus chromadb 
 pip install langchain langchain-core langchain-community langchain-text-splitters langchain-milvus langchain-ollama bs4
-pip install unstructured unstructured_inference pdfminer pdf2image python-poppler poppler-utils
+pip install onnx onnxruntime onnxoptimizer
+pip install unstructured unstructured_inference unstructured.pytesseract effdet pikepdf pypdf pi_heif pytesseract pdfminer pdfminer.six pdf2image google-cloud-vision
 
 pip install --upgrade transformers datasets trl peft accelerate scipy sentencepiece ipywidgets --no-warn-script-location
 pip install --force-reinstall 'https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/continuous-release_multi-backend-refactor/bitsandbytes-0.44.1.dev0-py3-none-manylinux_2_24_x86_64.whl' --no-deps
